@@ -2,8 +2,8 @@
 
 #include <string>
 
-namespace scopuli {
-
+namespace scopuli
+{
 inline static const std::string version{"0.1"};
 
 } // namespace scopuli

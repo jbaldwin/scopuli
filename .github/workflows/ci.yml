@@ -68,7 +68,7 @@ jobs:
                     cd build-debug-g++
                     cmake \
                         -GNinja \
-                        -DLIBSCOPULI_CODE_COVERAGE=ON \
+                        -DSCOPULI_CODE_COVERAGE=ON \
                         -DCMAKE_BUILD_TYPE=Debug \
                         -DCMAKE_C_COMPILER=gcc \
                         -DCMAKE_CXX_COMPILER=g++ \
