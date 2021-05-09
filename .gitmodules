@@ -1,0 +1,15 @@
+[submodule "vendor/jbaldwin/libcoro"]
+	path = vendor/jbaldwin/libcoro
+	url = git@github.com:jbaldwin/libcoro.git
+[submodule "vendor/fmtlib/fmt"]
+	path = vendor/fmtlib/fmt
+	url = git@github.com:fmtlib/fmt.git
+[submodule "vendor/gabime/spdlog"]
+	path = vendor/gabime/spdlog
+	url = git@github.com:gabime/spdlog.git
+[submodule "vendor/jbaldwin/libturbohttp"]
+	path = vendor/jbaldwin/libturbohttp
+	url = git@github.com:jbaldwin/libturbohttp.git
+[submodule "vendor/jbaldwin/libchain"]
+	path = vendor/jbaldwin/libchain
+	url = git@github.com:jbaldwin/libchain.git
