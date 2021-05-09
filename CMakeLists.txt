@@ -14,20 +14,20 @@ option(SCOPULI_BUILD_TESTS    "Build the scopuli tests, Default=ON." ON)
 option(SCOPULI_CODE_COVERAGE  "Enable code coverage, tests must also be enabled, Default=OFF" OFF)
 option(SCOPULI_BUILD_EXAMPLES "Build the examples, Defaul=ON" ON)
 
+set(CHAIN_BUILD_TESTS OFF CACHE INTERNAL "")
+set(CHAIN_BUILD_EXAMPLES OFF CACHE INTERNAL "")
+
+set(LIBCORO_BUILD_TESTS OFF CACHE INTERNAL "")
+set(LIBCORO_BUILD_EXAMPLES OFF CACHE INTERNAL "")
+
+set(TURBOHTTP_BUILD_EXAMPLES OFF CACHE INTERNAL "")
+set(TURBOHTTP_BUILD_TESTS OFF CACHE INTERNAL "")
+
 add_subdirectory(vendor/fmtlib/fmt)
 add_subdirectory(vendor/gabime/spdlog)
 add_subdirectory(vendor/jbaldwin/libchain)
 add_subdirectory(vendor/jbaldwin/libcoro)
 add_subdirectory(vendor/jbaldwin/libturbohttp)
-
-set(CHAIN_BUILD_TESTS OFF)
-set(CHAIN_BUILD_EXAMPLES OFF)
-
-set(LIBCORO_BUILD_TESTS OFF)
-set(LIBCORO_BUILD_EXAMPLES OFF)
-
-set(TURBOHTTP_BUILD_EXAMPLES OFF)
-set(TURBOHTTP_BUILD_TESTS OFF)
 
 set(SCOPULI_SOURCE_FILES
     inc/scopuli/scopuli.hpp src/scopuli.cpp
